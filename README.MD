@@ -1,7 +1,8 @@
 
 
 ###  Docker fabrication for  nginx with multiple php ###
-nginx +  php versions 7.1 & 5.6
+
+debian jessie + nginx +  php versions 7.1 & 5.6
 exposed ports are 8881 8891
 
 after fabricated with docker you will able to access both versions in different ports simultanously
