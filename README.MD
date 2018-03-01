@@ -1,17 +1,7 @@
 
 
 ###  Docker fabrication for  nginx with multiple php ###
-
-Quick launch
-
-<pre>
-docker pull aysadk/nginx-multiple-php
-docker run -p 8881:8881 -p 8891:8891 --rm -P nginx-multiphp-byaysad
-</pre>
-(https://hub.docker.com/r/aysadk/nginx-multiple-php/)
-
 nginx +  php versions 7.1 & 5.6
-
 exposed ports are 8881 8891
 
 after fabricated with docker you will able to access both versions in different ports simultanously
@@ -19,21 +9,25 @@ after fabricated with docker you will able to access both versions in different 
 php7.1 on port 8891
 php5.6 on port 8881
 
+## Quick launch ##
+
+<pre>
+docker pull aysadk/nginx-multiple-php
+docker run -p 8881:8881 -p 8891:8891 --rm -P nginx-multiphp-byaysad
+</pre>
+(https://hub.docker.com/r/aysadk/nginx-multiple-php/)
+
 ## Docker Fabrication launch ##
 <pre>
 git clone https://github.com/AysadKozanoglu/Docker-Nginx-multiple-PHP.git 
-
 docker build -t nginx-multiphp-byaysad Docker-Nginx-multiple-PHP
-
 docker run -p 8881:8881 -p 8891:8891 --rm -P nginx-multiphp-byaysad
 </pre>
-
 
 
 MIT License
 
 Copyright (c) 2018 Aysad Kozanoglu
-
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
