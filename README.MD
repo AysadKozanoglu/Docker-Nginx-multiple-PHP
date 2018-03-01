@@ -8,6 +8,7 @@ Quick launch
 docker pull aysadk/nginx-multiple-php
 docker run -p 8881:8881 -p 8891:8891 --rm -P nginx-multiphp-byaysad
 </pre>
+(https://hub.docker.com/r/aysadk/nginx-multiple-php/)
 
 nginx +  php versions 7.1 & 5.6
 
