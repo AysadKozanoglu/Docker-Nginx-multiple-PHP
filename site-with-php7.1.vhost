@@ -1,0 +1,10 @@
+server {
+    listen 8891 default_server;
+    server_name _;
+    root /var/www/site-with-php7.1;
+    index index.php;
+    location / {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/run/php/php7.1-fpm.sock; # adjust for the listen setting discussed above
+    }
+}
