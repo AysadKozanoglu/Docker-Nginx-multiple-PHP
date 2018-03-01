@@ -18,7 +18,7 @@ after fabricated with docker you will able to access both versions in different 
 php7.1 on port 8891
 php5.6 on port 8881
 
-## Docker Fabrication launch##
+## Docker Fabrication launch ##
 <pre>
 git clone https://github.com/AysadKozanoglu/Docker-Nginx-multiple-PHP.git 
 
