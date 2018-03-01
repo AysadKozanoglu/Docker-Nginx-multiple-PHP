@@ -23,6 +23,7 @@ git clone https://github.com/AysadKozanoglu/Docker-Nginx-multiple-PHP.git
 docker build -t nginx-multiphp-byaysad Docker-Nginx-multiple-PHP
 docker run -p 8881:8881 -p 8891:8891 --rm -P nginx-multiphp-byaysad
 </pre>
+now you are able to open on your localhost:8881 (php5.6) and localhost:9891  (php7.1) 
 
 
 MIT License
