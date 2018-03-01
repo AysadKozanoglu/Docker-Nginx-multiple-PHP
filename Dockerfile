@@ -1,4 +1,3 @@
-#
 # Author: Aysad Kozanoglu
 # Docker fabrication for  nginx with multiple php
 # php versions 7.1 & 5.6
